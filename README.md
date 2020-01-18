@@ -43,7 +43,12 @@ In the Intellij interface choose "edit configurations"
     - for port use the port that was displayed in the terminal when you started the shadow-cljs server. (e.g. if the output in the terminal is `shadow-cljs - nREPL server started on port 9000` then use `9000`).
 - Make sure that your application is running and navigate to the application url (probably http://localhost:8000)
 - After you start the REPL type: `(shadow/repl :main)` into the REPL input area and shadow-cljs will connect to the application that is running the browser.
-- To test if you have a valid connection type: `(js/alert "Hi")` into the REPL input area and you should see an alert pop up in your browser.
+- To test if you have a valid connection type: `(js/alert "Hi")** into the REPL input area and you should see an alert pop up in your browser.
+
+### Cider nREPL Setup
+
+(TBD)
+
 
 ## Production Build
 
